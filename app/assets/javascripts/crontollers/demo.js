@@ -1,9 +1,4 @@
-/**
- * Created by jainishshah on 8/2/15.
- */
-/**
- * Created by jainishshah on 8/2/15.
- */
+
 'use strict';
 
 angular.module('myApp.demo', ['ngRoute'])
@@ -156,54 +151,54 @@ angular.module('myApp.demo', ['ngRoute'])
             update(d);
         }
 
-        var data = [{
-            value: 30,
-            color: "#F7464A",
-            label: "Programming"
-        }, {
-            value: 50,
-            color: "#E2EAE9",
-            label: "Scripting"
-        }, {
-            value: 100,
-            color: "#D4CCC5",
-            label: "Docker"
-        }, {
-            value: 40,
-            color: "#949FB1",
-            label: "Front-End"
-        }, {
-            value: 120,
-            color: "#4D5360",
-            label: "AWS"
-        }
+        // var data = [{
+        //     value: 30,
+        //     color: "#F7464A",
+        //     label: "Programming"
+        // }, {
+        //     value: 50,
+        //     color: "#E2EAE9",
+        //     label: "Scripting"
+        // }, {
+        //     value: 100,
+        //     color: "#D4CCC5",
+        //     label: "Docker"
+        // }, {
+        //     value: 40,
+        //     color: "#949FB1",
+        //     label: "Front-End"
+        // }, {
+        //     value: 120,
+        //     color: "#4D5360",
+        //     label: "AWS"
+        // }
 
-        ]
+        // ]
 
-        var options = {
-            animation: true
-        };
+        // var options = {
+        //     animation: true
+        // };
 
-        //Get the context of the canvas element we want to select
-        var c = $('#myChart');
-        var ct = c.get(0).getContext('2d');
-        var ctx = document.getElementById("myChart").getContext("2d");
-        /*************************************************************************/
-        new Chart(ct).Doughnut(data, options);
+        // //Get the context of the canvas element we want to select
+        // var c = $('#myChart');
+        // var ct = c.get(0).getContext('2d');
+        // var ctx = document.getElementById("myChart").getContext("2d");
+        // /*************************************************************************/
+        // new Chart(ct).Doughnut(data, options);
 
 
         var barData = {
-            labels: ['HTML', 'CSS', 'JavaScript', 'jQuery', 'Json', 'AngularJs','Node.js'],
+            labels: ['HTML', 'CSS', 'JavaScript', 'jQuery', 'Json', 'AngularJs','Node.js', 'React.js'],
             datasets: [
                 {
                     label: 'learned',
                     fillColor: '#382765',
-                    data: [8, 9, 9, 5, 8, 8]
+                    data: [10, 9, 9, 5, 8, 8, 7, 7]
                 },
                 {
                     label: 'work',
                     fillColor: '#7BC225',
-                    data: [6, 5, 7, 2, 5, 4]
+                    data: [6, 5, 7, 2, 5, 4, 5, 5]
                 }
             ]
         };

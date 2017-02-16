@@ -1,7 +1,7 @@
 <?php
 //echo "hello"; die;
     //    $to      = 'vijay.panwar@nachron.com';
-    $to  = 'jainishshah@yahoo.com'; // note the comma
+    $to  = 'anand.dharne24@gmail.com'; // note the comma
     //$to .= 'info@nachron.com';
 
     // subject

@@ -1,6 +1,4 @@
-/**
- * Created by jainishshah on 8/2/15.
- */
+
 'use strict';
 
 angular.module('myApp.contact', ['ngRoute'])
@@ -47,7 +45,7 @@ angular.module('myApp.contact', ['ngRoute'])
             }
         };
 
-        var myCenter=new google.maps.LatLng(37.543196, -121.976410);
+        var myCenter=new google.maps.LatLng(42.656021, -71.330044);
 
             var mapProp = {
                 center:myCenter,
@@ -64,7 +62,7 @@ angular.module('myApp.contact', ['ngRoute'])
             marker.setMap(map);
 
             var infowindow = new google.maps.InfoWindow({
-                content:"39800 Fremont Blvd #206, Fremont ,CA-94538"
+                content:"203 University avenue Lowell, MA, 01854"
             });
 
             google.maps.event.addListener(marker, 'click', function() {
